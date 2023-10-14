@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="initialProgress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="background_progress_empty" format="reference"/>
+        <attr name="background_progress_view" format="reference"/>
+        <attr name="background_container_number_view" format="reference"/>
+        <attr name="background_container_final_view" format="reference"/>
+    </declare-styleable>
+</resources>
