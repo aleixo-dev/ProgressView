@@ -10,12 +10,12 @@ The "Progress View" library is a custom Android component that enables you to cr
 ```bash
 // Register JitPack Repository inside the root build.gradle file
 dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { setUrl("https://jitpack.io") }
-		}
-	}
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+     repositories {
+	  mavenCentral()
+	  maven { setUrl("https://jitpack.io") }
+      }
+}
 
 // Add ProgressView dependency inside the app's build.gradle file
 dependencies {
