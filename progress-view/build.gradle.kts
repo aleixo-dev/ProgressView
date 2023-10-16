@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -33,6 +34,18 @@ android {
 
     buildFeatures {
         viewBinding = true
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "br.com.nicolas"
+                artifactId = "progress-view"
+            }
+        }
     }
 }
 
