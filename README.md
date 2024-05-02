@@ -1,4 +1,4 @@
-# ProgressView
+# 📃 ProgressView
 
 [![](https://jitpack.io/v/Aleixo-Dev/ProgressView.svg)](https://jitpack.io/#Aleixo-Dev/ProgressView)
 
